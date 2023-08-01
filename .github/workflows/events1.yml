@@ -3,8 +3,7 @@ name: Events
 on:
   pull_request:
     types:
-      - closed
-  workflow_dispatch:
+      - opened
 
 jobs:
   deploy:
